@@ -1,0 +1,16 @@
+<?php
+$lang = array (
+  'pageTitle' => 'orders',
+  'main_title' => 'orders',
+  'develop_get_obj_success' => 'Execute successful',
+  'order_communicate' => 'Sản phẩm [%s] đã được thêm vào giỏ hàng.',
+  'cart_maintitle' => 'Giỏ hàng',
+  'order_money' => 'vnđ',
+  'err_none_select_items' => 'Vui lòng chọn ít nhất một sản phẩm!',
+  'order_title' => 'giỏ hàng',
+  'update_succes' => '<a href="#null" class="coman infor" id="kx">Giỏ hàng đã cập nhật thành công</a>',
+  'err_user_name' => 'Vui lòng nhập tên đăng nhập hợp lệ',
+  'err_user_pass' => 'Vui lòng nhập mật khẩu',
+  'callprice' => 'Call',
+);
+?>

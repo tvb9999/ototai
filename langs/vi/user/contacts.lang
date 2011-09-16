@@ -1,0 +1,26 @@
+<?php
+$lang = array (
+  'pageTitle' => 'Liên hệ',
+  'main_title' => 'Liên hệ',
+  'contact_title' => 'Tiêu đề',
+  'contact_full_name' => 'Họ tên',
+  'contact_address' => 'Địa chỉ',
+  'contact_phone' => 'Điện thoại',
+  'contact_email' => 'Email',
+  'contact_message' => 'Nội dung',
+  'contact_sends' => 'Gửi',
+  'Contacts_reset' => 'Làm lại',
+  'err_contact_name_blank' => 'Vui lòng nhập họ tên!',
+  'err_contact_email_blank' => 'Nhập vào đúng loại email!',
+  'err_contact_title_blank' => 'Nhập vào tiêu đề!',
+  'err_contact_message_blank' => 'Thông tin quá ngắn!',
+  'err_user_name' => 'Vui lòng nhập tên đăng nhập hợp lệ',
+  'err_user_pass' => 'Vui lòng nhập mật khẩu',
+  'group_global_module' => 'global',
+  'callprice' => 'Call',
+  'contactviaemail' => 'Liên hệ qua Email!',
+  'ggmap' => 'Bản đồ chỉ dẫn!',
+  'contactSubject' => 'Contact',
+  'thank_message' => 'Your message have been sent',
+);
+?>

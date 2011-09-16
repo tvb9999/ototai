@@ -1,0 +1,10 @@
+#replyForm .right{
+	color: #000;
+	font-weight:bold;
+}
+
+.close{
+	float:right;
+	margin-left: 10px;
+	cursor: pointer;
+}

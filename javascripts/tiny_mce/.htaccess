@@ -1,0 +1,11 @@
+order allow,deny
+deny from all
+<FilesMatch "\.(htm|html|js|jpg|png|gif|css|swf)$">
+allow from all
+</FilesMatch>
+<Files index.php>
+allow from all
+</Files>
+<Files login_session_auth.php>
+allow from all
+</Files>

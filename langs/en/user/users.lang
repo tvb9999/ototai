@@ -1,0 +1,28 @@
+<?php
+$lang = array (
+  'pageTitle' => 'users',
+  'main_title' => 'users',
+  'develop_delete_object_success' => 'Delete object successfully!',
+  'user_title_reg' => 'Register',
+  'day' => 'Day',
+  'capslock_onpress' => 'Please disable capslock!',
+  'err_user_name' => 'Please enter your username',
+  'err_user_name_length' => 'Phải ít nhất 4 ký tự',
+  'err_email' => 'Please enter a valid email address',
+  'err_email_re' => 'Email confirmation is incorrect. Please re-enter',
+  'err_pass' => 'Please enter your password.',
+  'err_pass_length' => 'Phải ít nhất 6 ký tự',
+  'err_pass_re' => 'Password confirmation is incorrect. Please re-enter',
+  'err_fullname' => 'Please enter Fullname',
+  'err_address' => 'Please enter address',
+  'err_phone' => 'Please enter your phone',
+  'err_code' => 'Please enter the verification code',
+  'e_date_wrong' => 'Nhập vào đầy đủ thông số ngày tháng năm!',
+  'err_user_pass' => 'Please enter your password',
+  'error_email' => 'Please enter the email!',
+  'err_type_email' => 'Email is invalid!',
+  'error_user_password' => 'Incorrect password!',
+  'user_title_login' => 'Login',
+  'error_username' => 'Please enter your username!',
+);
+?>

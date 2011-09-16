@@ -1,0 +1,12 @@
+<?php
+$lang = array (
+  'pageTitle' => 'Giới thiệu',
+  'main_title' => 'Giới thiệu',
+  'group_global_module' => 'global',
+  'err_user_name' => 'Vui lòng nhập tên đăng nhập hợp lệ',
+  'err_user_pass' => 'Vui lòng nhập mật khẩu',
+  'abouts_title' => 'Giới thiệu',
+  'callprice' => 'Call',
+  'develope_connect_db_fail' => 'Cannot connect to database',
+);
+?>

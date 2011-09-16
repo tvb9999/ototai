@@ -1,0 +1,12 @@
+<?php
+$lang = array (
+  'pageTitle' => 'home',
+  'main_title' => 'home',
+  'product_title_new_product' => 'New Product',
+  'product_price' => 'Price',
+  'product_money' => 'vnđ',
+  'product_detail' => 'Detail',
+  'err_user_name' => 'Please enter a valid username',
+  'err_user_pass' => 'Please enter your password',
+);
+?>

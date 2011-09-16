@@ -1,0 +1,48 @@
+﻿*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family:Tahoma;
+	font-size:12px;
+	background:url(../images/bg_body.jpg) repeat scroll;
+	behavior:url("scripts/csshover3.htc");
+}
+center{
+	margin:0 auto;
+	width:999px;
+}
+.clear{
+	clear:both;
+}
+
+img, p, ul{
+	border:0px;
+	text-align: left;
+}
+li{
+	list-style:none;
+}
+a{
+	color:#0309ff;
+	text-decoration:none;
+	outline: none;
+}
+select{
+	outline:none;
+}
+table{
+	border-collapse:collapse;
+	text-align: left;
+	font-weight: bold;
+}
+
+/*---------- Một số chuẩn khi cắt css và tránh lỗi IE6-------------
+- Khi thêm thuộc tính margin cho thẻ phải thêm thuộc tính display:inline (trừ những thẻ không có chiều cao, rộng cố định thì không cần thiết)
+- Khi thêm padding chiều nào của một thẻ phải giảm độ rộng, cao tương ứng nếu thẻ có chiều rộng hoặc cao cố định.
+- Tất cả các link phải có hover
+- Những button như Hủy,Gửi đặt trong thẻ input phải có thuộc tính cursor:pointer . 
+- Những Title chỉ có một dòng thì tránh dùng padding-left khi muốn cách đầu dòng_ nên dùng text-indent:px và nên sét chiều rộng và thuộc tính overflow:hidden.
+- Nếu thẻ <img/> đặt trong một thẻ khác mà hình ảnh quá nhỏ thì phải có thuộc tính font-size:1px trong thẻ chứa <img/>
+
+* ---------------------------Qui tắc đặt tên--------------*/

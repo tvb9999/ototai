@@ -1,0 +1,70 @@
+/******************************************************************************/
+/**********************insert to BasicObject***********************************/
+/******************************************************************************/
+
+//convert to DB function 
+////////for seo only
+		isset ( $this->seoId ) 			? ($dbobj ['seoId'] 	= $this->getSeoId()) 		: '';
+//convert to object function
+//////////for seo only
+		isset ( $object ['seoId'] ) 		? $this->setSeoId ( $object ['seoId'] ) 				: '';
+
+
+
+/****************************************************************************/
+/*****************insert following code to end code file*********************/
+/****************************************************************************/
+	/**
+	 * for seo only if you not understand please contact tuyenbui@vietsol.net
+	 */
+	public $seoId=Null;
+	public function getSeoId() {
+		return $this->seoId;
+	}
+	public function setSeoId($seoId) {
+		$this->seoId = $seoId;
+	}
+	public function getRealUrl($fullPath=true) {
+		global $bw;
+		if($fullPath){
+			return $bw->base_url."tours/detail/{$this->getId()}";
+		}else{
+			return "tours/detail/{$this->getId()}";
+		}
+	}
+	public function getAliasUrl($fullPath=true) {
+		global $vsStd,$bw;
+		if($this->seoId){
+			$vsStd->requireFile(COM_PATH.'SEO/SEO.php');
+			$seo=new COM_SEO();
+			$seoObj=$seo->getObjectById($this->seoId);
+			if(is_object($seoObj)){
+				if($fullPath){
+					return $bw->base_url.$seoObj->getAliasUrl();
+				}else{
+					return $seoObj->getAliasUrl();
+				}
+			}
+		}
+		return $this->getRealUrl($fullPath);
+	}
+	
+	
+	
+	
+/******************************************************************************/
+/****insert following code to skins file in javascript tag of edit form ******/
+/******************************************************************************/
+	
+	
+	if('{$objItem->getId()}'){
+			$("#obj-title").vsSeo('{$objItem->getSeoId()}',{
+					realUrl:"{$objItem->getRealUrl(false)}",
+					aliasUrl:"{$objItem->getTitle()}"
+			});
+	}
+	
+	
+	
+	
+/**********************if you not understand contact tuyenbui@vietsol.net************************************/
