@@ -1,0 +1,20 @@
+<?php
+$lang = array (
+  'pageTitle' => 'Sản phẩm',
+  'main_title' => 'Sản phẩm',
+  'group_global_module' => 'global',
+  'products_code' => 'Mã hàng',
+  'products_price' => 'Giá',
+  'products_money' => 'VNĐ',
+  'callprice' => 'Gọi',
+  'develop_get_obj_success' => 'Execute successful',
+  'err_user_name' => 'Vui lòng nhập tên đăng nhập hợp lệ',
+  'err_user_pass' => 'Vui lòng nhập mật khẩu',
+  'product_search_result' => 'Kết quả tìm kiếm',
+  'pro_no_search' => 'Không tìm thấy sản phẩm. Hãy nhập từ khóa khác xem sao!',
+  'sp' => 'Sản phẩm',
+  'spsame' => 'Sản phẩm cùng loại',
+  'gb' => 'Giá',
+  'get_id_fail' => 'There is no item with specified ID!',
+);
+?>

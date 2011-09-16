@@ -1,0 +1,47 @@
+/* Tabs
+----------------------------------*/
+.ui-tabs { 
+	padding: .2em;
+	zoom: 1;
+	position:relative;
+	float:left;
+	width:986px;
+}
+.ui-tabs .ui-tabs-nav {
+	padding:3px 0px 0px;
+	padding-top:20px;
+	list-style: none;
+	position: relative;
+	float:none;
+	
+}
+.ui-tabs .ui-tabs-nav li {
+	position: relative;
+	float: left;
+	border-bottom-width: 0 !important;
+	margin:0px 0px -1px 3px;
+	display:inline;
+	padding: 0;
+}
+.ui-tabs .ui-tabs-nav li a {
+	float: left;
+	text-decoration: none;
+	padding: 0px 10px;
+	padding-left:7px;
+	height:26px;
+	line-height:26px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { padding-bottom: 1px; border-bottom-width: 0; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { color:#000 ;cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel {
+	position:relative;
+	float:left;
+	width:100%;
+	padding:5px 0px;
+	display: block;
+	border-width: 0;
+	padding-top:0px;
+	background: none;
+}
+.ui-tabs .ui-tabs-hide { display: none !important; }

@@ -1,0 +1,11 @@
+<?php
+$lang = array (
+  'pageTitle' => 'Tin tức',
+  'main_title' => 'Tin tức',
+  'err_user_name' => 'Vui lòng nhập tên đăng nhập hợp lệ',
+  'err_user_pass' => 'Vui lòng nhập mật khẩu',
+  'develop_get_obj_success' => 'Execute successful',
+  'group_global_module' => 'global',
+  'callprice' => 'Call',
+);
+?>

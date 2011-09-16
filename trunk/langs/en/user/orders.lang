@@ -1,0 +1,14 @@
+<?php
+$lang = array (
+  'pageTitle' => 'Orders',
+  'main_title' => 'Orders',
+  'cart_maintitle' => 'Orders',
+  'order_title' => 'Orders',
+  'err_user_name' => 'Vui lòng nhập tên đăng nhập hợp lệ',
+  'err_user_pass' => 'Vui lòng nhập mật khẩu',
+  'develop_get_obj_success' => 'Execute successful',
+  'order_communicate' => 'Sản phẩm [%s] đã được thêm vào giỏ hàng.',
+  'order_money' => 'vnđ',
+  'err_none_select_items' => 'Vui lòng chọn ít nhất một sản phẩm!',
+);
+?>

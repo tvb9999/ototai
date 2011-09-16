@@ -1,0 +1,214 @@
+<?php
+	/*
+	This are the basic property of each item.
+	*/
+	protected $id 			= NULL;
+	protected $catId 		= NULL;
+	protected $category	 	= NULL;
+	protected $index 		= NULL;
+	protected $title 		= NULL;
+	protected $intro 		= NULL;
+	protected $content 		= NULL;
+	protected $status 		= NULL;
+	protected $url 			= NULL;
+	protected $postdate 	= NULL;
+
+	/*
+		Lấy tiêu đề của đối tượng
+		@param $size: số ký tự muốn cắt
+		Nếu $size = 0: trả về toàn bộ chuỗi title.
+		@return string.
+	*/
+	function getTitle($size=0);
+
+	/*
+		Lấy số thự tự của đối tượng
+		@return string.
+	*/
+	function getIndex() {}
+	
+	
+	/*
+		Lấy id của đối tượng
+		@return string.
+	*/
+	function getId(){}
+	
+	/*
+		Lấy cat id của đối tượng
+		@return string.
+	*/
+	function getCatId() {
+		return $this->catId;
+	}
+	
+	/*
+		Lấy nội dung (content) của đối tượng.
+		@param $size: số ký tự muốn cắt.
+		Nếu $size = 0: trả về toàn bộ nội dung.
+		@return string.
+	*/
+	function getContent($size=0) {	
+	}
+	
+	/*
+		Lấy đoạn giới thiệu (content) của đối tượng.
+		@param $size: số ký tự muốn cắt.
+		Nếu $size = 0: trả về toàn bộ đoạn giới thiệu.
+		@return string.
+	*/
+	function getIntro($size=0) {
+	}
+	
+	/*
+		Lấy thuộc tính url của đối tượng.
+		@param $module: module của đối tượng đó. VD: đối tượng news => module là news.
+		Nếu $module = null: trả về giá trị của biến url.
+		Nếu $module <> null: trả về giá trị theo cấu trúc: $bw->base_url . "{$module}/detail/tieu-de-cua-doi-tuong-".id."/";
+		@return string.
+	*/
+	function getUrl($module=null) {
+		global $bw;
+		if(!$module) return $this->url;
+		return $bw->base_url . "{$module}/detail/".VSFTextCode::removeAccent(str_replace("/", '-', $this->title),'-'). '-' . $this->getId () . '/';
+	}
+	
+	/*
+		Lấy detail url của đối tượng.
+		@param $module: module của đối tượng đó. VD: đối tượng news => module là news.
+		@return trả về giá trị theo cấu trúc: $bw->base_url . "{$module}/detail/tieu-de-cua-doi-tuong-".id."/";
+	*/
+	function getUrlDetail($module) {}
+	
+	/*
+		Lấy thuộc tính status của đối tượng.
+		@param $type: 
+		Nếu $type = null: trả về giá trị thô (0, 1,...)của thuộc tính này.
+		Nếu $type = "image": 
+			1. Trả về tấm hình đại diện cho thuộc tính này.
+			2. disabled.png: không hiển thị, tương đương với giá trị thô là 0.
+			   enable.png:   hiển thị, tương đương với giá trị thô là 1.
+			3. Các hình này nằm thư mục được định nghĩa thông qua biến $bw->vars['img_url'];
+		Nếu $type = "text": 
+			1. "Ẩn": tương đương với giá trị thô là 0.
+			   "Hiện thi": tương đương với giá trị thô là 1.
+		@return string;
+	*/
+	function getStatus($type=null) {
+		
+	}
+	
+	/*
+		Lấy thuộc tính postDate của đối tượng. Thuộc tính postDate là thông tin ngày tháng mà đối tượng được tao ra.
+		@param $format: 
+		Nếu $format = null: trả về giá trị thô (giá trị lưu trong database) của thuộc tính này.
+		Nếu $format <> null: trả về ngày tháng theo định dạng của biến $format.
+			
+		@return string;
+	*/
+	function getPostDate($format=null){
+	}
+	
+	/*
+		Lấy đường dẫn trỏ đến image (image được scale lại theo kích thước được gán) của đối tượng.
+		@param $path: đường dẫn của tấm hình;
+		@param $width: chiều rộng của tấm hình sau khi scale. Mặc định @width = 130px;
+		@param $height: chiều dài của tấm hình sau khi scale. Mặc định @height= 100px;
+
+		@return string;
+		example: <img src="$this->getRegetResizeImagePath($this->path, 150, 150)" alt="$this->title" />
+	*/
+	
+	function getResizeImagePath($path, $width = 130, $height = 100) {
+	}
+	
+	/*
+		Lấy đường dẫn trỏ đến image (image được scale lại theo kích thước được gán) của đối tượng ($this). 
+		@param $fileObject: đối tượng File chứa đường dẫn đến image gốc.
+		@param $width: chiều rộng của tấm hình sau khi scale. Mặc định @width = 130px;
+		@param $height: chiều dài của tấm hình sau khi scale. Mặc định @height= 100px;
+
+		@return string;
+		example: <img src="$this->getCacheImagePathByFile($this->path, 150, 150)" alt="$this->title" />
+	*/
+	function getCacheImagePathByFile($fileObject, $width = 130, $height = 100) {
+	}
+	
+	
+	/*
+		Trả về đối tượng category (đối tượng menu) của đối tượng.
+		@param $$catId: catId của đối tượng.
+
+		@return menu;
+	*/
+	public function createCategory($catId=null) {		
+	}
+	
+	
+	/*
+		Lấy trả thể img cho hình (image được scale lại theo kích thước được gán) của đối tượng ($this). 
+		createImageCache
+		@param $fileObject: đối tượng File chứa đường dẫn đến image gốc.
+		@param $width: chiều rộng của tấm hình sau khi scale. Mặc định @width = 100px;
+		@param $height: chiều dài của tấm hình sau khi scale. Mặc định @height= 100px;
+		@param $type: Nếu là 1: thì trả về đường dẫn đến hình đó.
+		@noimage: Nếu đối tượng đó không có hình thì có trả hình noimage về không? (1: có, 2: không)
+		@return $this->imageCache: string;
+		example: <img src="$this->getRegetResizeImagePath($this->path, 150, 150)" alt="$this->title" />
+		
+	*/
+	
+	function createImageCache($fileObject, $width=100, $height=100, $type=0, $noimage=0){
+	}
+	
+	function setIndex($index) {
+	}
+	
+	
+	function setTitle($title) {}
+
+	
+
+	function setCatId($catId) {
+		$this->catId = $catId;
+	}
+	
+	
+	function setPostDate($postDate){
+	}
+
+	
+	function setId($id) {
+	}
+	
+	function setUrl($url) {
+	}
+	
+	function setStatus($status) {
+	}
+	
+	function setContent($content) {
+	}
+	
+	
+	function setType($type) {
+	}
+	
+	function setIntro($intro) {
+		$this->intro = $intro;
+	}
+	
+	
+	function getCategory() {
+		return $this->category;
+	}
+
+
+	function setCategory($category) {
+		$this->category = $category;
+	}
+
+	
+	
+}
+

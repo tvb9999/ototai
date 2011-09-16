@@ -1,0 +1,24 @@
+<?php
+$lang = array (
+  'pageTitle' => 'languages',
+  'main_title' => 'languages',
+  'lang_confirm' => 'Confirm delete',
+  'Vietnamese' => 'Vietnamese',
+  'English' => 'English',
+  'tab_news_lang' => 'Languages',
+  'lang_itemm_list' => 'Language Item List',
+  'lang_option' => 'Option',
+  'err_lang_name_blank' => 'Please enter the module name!',
+  'lang_module_add' => ' Add module′s language file  ',
+  'lang_module' => 'Module',
+  'language_file_title' => 'Language Files',
+  'user' => 'User',
+  'admin' => 'Admin',
+  'group_global_module' => 'global',
+  'lang_module_add_text' => ' Add module′s language text',
+  'lang_module_text_key' => 'Language key',
+  'lang_module_text_value' => 'Language value',
+  'lang_module_text' => 'Current module′s language text',
+  'newsItem_EditObjTitle' => 'Click here to delete this languages',
+);
+?>

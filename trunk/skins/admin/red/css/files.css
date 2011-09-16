@@ -1,0 +1,15 @@
+#folder-list {
+	padding: 10px;
+}
+
+#folder-list a:link,
+#folder-list a:visited,
+#folder-list a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+#folder-list a:hover {
+	color: #AAAAAA;
+	text-decoration: none;
+}

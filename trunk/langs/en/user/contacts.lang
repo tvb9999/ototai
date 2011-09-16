@@ -1,0 +1,22 @@
+<?php
+$lang = array (
+  'pageTitle' => 'contacts',
+  'main_title' => 'contacts',
+  'contact_full_name' => 'Full name',
+  'contact_address' => 'Address',
+  'contact_phone' => 'Phone',
+  'contact_email' => 'Email',
+  'contact_title' => 'Title',
+  'contact_message' => 'Note',
+  'contact_sends' => 'Sent',
+  'Contacts_reset' => 'Reset',
+  'err_contact_name_blank' => 'Full name, Enter!',
+  'err_contact_email_blank' => 'Email, Enter!',
+  'err_contact_title_blank' => 'Title, Enter!',
+  'err_contact_message_blank' => 'Content is too short!',
+  'err_user_name' => 'User name, Error!',
+  'err_user_pass' => 'Password, Error!',
+  'contactviaemail' => 'Contact via Email!',
+  'ggmap' => 'Location!',
+);
+?>

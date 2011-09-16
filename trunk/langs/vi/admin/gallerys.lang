@@ -1,0 +1,19 @@
+<?php
+$lang = array (
+  'pageTitle' => 'gallerys',
+  'main_title' => 'gallerys',
+  'develop_get_obj_success' => 'Execute successful',
+  'file_type_add_bt' => 'Add',
+  'file_type_add_title' => 'Add File',
+  'group_global_module' => 'global',
+  'file_upload_form_name' => 'Filename',
+  'file_upload_title' => 'Dữ liệu từ máy tính',
+  'file_link_title' => 'Link từ website khác',
+  'file_upload_form_source' => 'Source',
+  'file_imge' => 'Hình ảnh đại diện',
+  'file_youtube' => 'Url youtube',
+  'file_url_link' => 'Link từ website khác',
+  'gallery_file_empty' => 'Không có hình ảnh nào cả.',
+  'newsItem_EditObjTitle' => 'Click here to edit this gallerys',
+);
+?>

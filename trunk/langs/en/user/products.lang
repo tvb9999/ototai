@@ -1,0 +1,14 @@
+<?php
+$lang = array (
+  'pageTitle' => 'Product',
+  'main_title' => 'Product',
+  'products_code' => 'Code',
+  'products_price' => 'Price',
+  'products_money' => 'USD',
+  'develop_get_obj_success' => 'Execute successful',
+  'err_user_name' => 'Full name, Error!',
+  'err_user_pass' => 'Password, Error!',
+  'sp' => 'Products',
+  'spsame' => 'Sản phẩm cùng loại',
+);
+?>

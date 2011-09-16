@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+	<title>Tổng công ty Cà Phê Việt Nam</title>
+	<link>http://localhost:8080/boong.com.vn/acprs.php?vs=</link>
+	<description>Thông tin thị trường cà phê Việt Nam</description>
+	<pubDate>Thu, 05 May 2011 08:05:41 +0000</pubDate>
+	<ttl>60</ttl>
+	<item>
+		<title>Hưỡng dẫn mua hàng</title>
+		<link>http://localhost:8080/boong.com.vn/acprs.php?vs=helpbuy/detail/huong-dan-mua-hang-3/</link>
+		<description>Dữ liệu đang cập nhật</description>
+		<content>Dữ liệu đang cập nhật</content>
+		<pubDate>Thu, 05 May 2011 08:05:41 +0000</pubDate>
+	</item>
+</channel>
+</rss>

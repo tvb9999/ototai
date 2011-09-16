@@ -1,0 +1,154 @@
+*{
+	margin:0px;
+	padding:0px;
+	outline:none;
+}
+body{
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background:#ccc url(../images/background.jpg) repeat-x scroll center top;
+	text-align:justify;
+}
+.header_vs_ceedos{
+	height:28px;
+	text-transform: uppercase;
+}
+.buttom_back_cd{
+	background:url(../images/back_cd.jpg) no-repeat scroll left top;
+	padding-left:30px;
+	height:27px;
+	line-height:27px;
+	float:left;
+	position: absolute;
+	left:0px;
+	text-transform: uppercase;
+	font-weight:bold;
+	color:#fff;
+}
+.header_vs_ceedos span{
+	line-height:28px;
+	font-weight: bold;
+	color:#fff;s
+}
+.logo_cd{
+	padding-right:5px;
+	float:right;
+	color:#fff;
+	padding-left:32px !important;
+}
+img{
+	border:none;
+}
+.clear{
+	clear:both;
+	margin:0px;
+	padding:0px;
+	background:#0F0;
+}
+.uvn-login{
+	width:100%;
+	margin-top:150px;
+}
+.uvn-login .uvn-logo-cell{
+	width:235px;
+	height:140px;
+}
+.uvn-login .uvn-login-form{
+	width:500px;
+	height:175px;
+	background:url(../images/uvn-login-form.jpg) center top no-repeat;
+}
+	.uvn-login-form .login-form{
+		margin:47px 105px 0px 106px;
+		display:inline;
+		position:relative;
+		float:left;
+		text-align:left;
+	}
+
+	.login-form .text-cell{
+		width:80px;
+		height:28px;
+		line-height:28px;
+		padding-bottom:5px;
+		position:relative;
+		float:left;
+		font-weight:bold;
+		color:#737373;
+		overflow:hidden;
+	}
+	.login-form .input-cell{
+		width:200px;
+		height:22px;
+		padding-top:6px;
+		padding-left:2px;
+		padding-bottom:5px;
+		padding-right:7px;
+		float:left;
+		overflow:hidden;
+		background:url(../images/uvn-login-input.jpg) left 6px no-repeat;
+	}
+	.login-form .input-cell label.error{
+		position:absolute;
+		top:40px;
+		left:230px;
+		width:240px;
+		background:#FFF;
+		font-weight:bold;
+		color:#F00;
+		padding:5px;
+		display:none;
+	}
+	.login-form input{
+		border:none;
+		background:none;
+		padding:3px 0px;
+		height:16px;
+		width:195px;
+	}
+	.login-form .submit-cell{
+		position:relative;
+		float:right;
+	}
+	.remember{width:209px;float:left;padding-left:78px;}
+	.remember input{width:15px;float:left;outline:none}
+	.remember span{width:190px;height:15px;line-height:15px;float:left;padding-left:3px;color:#737373;}
+	.submit-cell button{
+			width:74px;
+			background:url(../images/log_me_in.jpg) no-repeat scroll center 2px;
+			color:#fff;
+			text-transform:uppercase;
+			height:28px;
+			cursor:pointer;
+			display:block;
+			overflow:hidden;
+			border:none;
+			font-size: 12px;
+			font-weight: bold;
+			line-height:26px;
+		}
+.system_error{
+	font-weight:bold;
+	color:#900;
+	font-size:12px;
+	position: absolute;
+		top:-33px;
+		left:116px;
+}
+.uvn-login .uvn-sysinfo{
+		width:290px;
+		margin:50px 95px 0px 115px;
+		display:inline;
+		position:relative;
+		float:left;
+		text-align:center;
+}
+.uvn-sysinfo p{
+	margin:5px 0px;
+}
+.uvn-sysinfo .c-name{
+	font-size: 11px;
+	font-weight: bold;
+	color: #006699;
+}

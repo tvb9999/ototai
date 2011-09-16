@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+
+.currency{
+	width:274px;
+	margin:2px;
+}
+
+.header{
+	width:274px;
+	text-align:center;
+	font-weight: bold;
+	font-size:11px;
+	font-family: arial;
+	border: #8BB4D4 1px solid;
+	height:18px;
+	padding-left:1px;
+	margin-left:2px;
+}
+
+.header .cell{
+	background: #EFF7FF none repeat scroll 0 0;
+	width:60px;
+	float:left;
+	padding:3px 0px 0px 5px;
+	color:#C37300;
+	height:15px;
+	border-right: 1px solid white;
+}
+
+.box{
+	width:267px;
+}
+
+.box .row{
+	text-align:center;
+	background: #EFF7FF none repeat scroll 0 0;
+	border: 1px solid white;
+	color:#C37300;
+	font-size:11px;
+	font-family: arial;
+	height:18px;
+	padding-left:1px;
+}
+
+.box .old:hover, .box .even:hover{
+	background: #EFF7FF none repeat scroll 0 0;
+}
+
+.box .even{
+	background: white none repeat scroll 0 0;
+}
+
+.box .old{
+	background: #F9F9F9   none repeat scroll 0 0;
+}
+
+.box .row .cell{
+	width:60px;
+	float:left;
+	padding:3px 0px 0px 5px;
+	height:15px;
+	border-right: 1px solid white;
+}
+.box .row .cell .bid_up, .box .row .cell .ask_up{
+	color: green;
+}
+.box .row .cell .bid_down, .box .row .cell .ask_down{
+	color: red;
+}
+
