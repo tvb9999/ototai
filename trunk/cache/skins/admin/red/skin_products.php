@@ -226,7 +226,7 @@ $BWHTML .= <<<EOF
     </tr>
 </thead>
 <tbody>
-{$this->__foreach_loop__id_4e72c0bf27a03($objItems,$option)}
+{$this->__foreach_loop__id_4e740d65bbed6($objItems,$option)}
 </tbody>
 <tfoot>
 <tr>
@@ -258,7 +258,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e72c0bf27a03($objItems=array(),$option=array())
+function __foreach_loop__id_4e740d65bbed6($objItems=array(),$option=array())
 {
 global $bw, $vsLang, $vsSettings;
 	$BWHTML = '';

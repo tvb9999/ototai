@@ -19,7 +19,7 @@ EOF;
 if($option['pageList']) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e6c19e8f16a1($option,$document)}
+{$this->__foreach_loop__id_4e74061fb95ac($option,$document)}
                             
 EOF;
 }
@@ -39,7 +39,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e6c19e8f16a1($option="",$document="")
+function __foreach_loop__id_4e74061fb95ac($option="",$document="")
 {
 global $bw, $vsLang, $vsPrint;
 	$BWHTML = '';
@@ -85,7 +85,7 @@ EOF;
 if($option['list']) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e6c19e8f1a8c($obj,$option)}
+{$this->__foreach_loop__id_4e74061fb96bf($obj,$option)}
 
 EOF;
 }
@@ -101,7 +101,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e6c19e8f1a8c($obj="",$option=array())
+function __foreach_loop__id_4e74061fb96bf($obj="",$option=array())
 {
 global $vsTemplate;
 	$BWHTML = '';

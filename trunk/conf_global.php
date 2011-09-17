@@ -10,7 +10,7 @@ $INFO['board_start']		=	'1170726947';
 $INFO['installed']			=	'1';
 $INFO['php_ext']			=	'php';
 $INFO['safe_mode']			=	'0';
-$INFO['board_url']			=	'http://localhost/boong';
+$INFO['board_url']			=	'http://localhost/ototai';
 $INFO['root_admin_groups']	=	'1';
 $INFO['TimeZone']			=	'+7';
 ?>

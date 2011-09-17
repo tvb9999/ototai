@@ -156,7 +156,7 @@ EOF;
 if( $this->ADMIN_TOP_MENU ) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e72dc1dcdbd7()}
+{$this->__foreach_loop__id_4e740d65b1659()}
 
 EOF;
 }
@@ -215,7 +215,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e72dc1dcda3a($menu='',$obj='')
+function __foreach_loop__id_4e740d65b159f($menu='',$obj='')
 {
 ;
 	$BWHTML = '';
@@ -238,7 +238,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e72dc1dcdad2($menu='')
+function __foreach_loop__id_4e740d65b15e9($menu='')
 {
 ;
 	$BWHTML = '';
@@ -256,7 +256,7 @@ if($obj->isDropdown&&count($obj->children)) {
 $BWHTML .= <<<EOF
 
                     <ul>
-                    {$this->__foreach_loop__id_4e72dc1dcda3a($menu,$obj)}
+                    {$this->__foreach_loop__id_4e740d65b159f($menu,$obj)}
                     </ul>
                     
 EOF;
@@ -276,7 +276,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e72dc1dcdbd7()
+function __foreach_loop__id_4e740d65b1659()
 {
 global $bw, $vsUser, $vsLang;
 	$BWHTML = '';
@@ -294,7 +294,7 @@ if($menu->isDropdown&&count($menu->children)) {
 $BWHTML .= <<<EOF
 
                     <ul>
-                    {$this->__foreach_loop__id_4e72dc1dcdad2($menu)}
+                    {$this->__foreach_loop__id_4e740d65b15e9($menu)}
                     </ul>
 
 EOF;

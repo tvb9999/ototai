@@ -29,7 +29,10 @@
     padding: 0;
     text-align: left;
     width: 575px;
+	
 }
+
+
 
 .sp_all{
 	width:568px;
@@ -480,4 +483,15 @@ select {
     overflow: hidden;
     padding: 0 5px 0 6px;
     text-transform: lowercase;
+}
+
+/***********************************/
+#product_feature
+{
+	margin-left: 0px;
+}
+
+#box_detail
+{
+	overflow: auto;
 }

@@ -391,10 +391,10 @@ EOF;
 						<div class="clear"></div>
 						<div class="footer2">
 							<div class="text1_footer">
-								{$vsLang->getWordsGlobal("global_company_year2","© Copyright 2011")} {$vsLang->getWordsGlobal("global_company_site","boong.com.vn")} , {$vsLang->getWordsGlobal("global_company_copyright","All right reserved")}</br>
-								{$vsLang->getWordsGlobal("global_company_add","Địa chỉ: 96 Nguyễn Minh Hoàng,Tân Bình,TP HCM")} </br>
-								{$vsLang->getWordsGlobal("global_company_email2","Email: uyenthao@yahoo.com")} | 
-								{$vsLang->getWordsGlobal("global_company_hotline2","Hotline: 0938 399 987 - 0935 379 998")}
+								{$vsLang->getWordsGlobal("global_company_year2","© Copyright 2011")} {$vsLang->getWordsGlobal("global_company_site","eteam.vn")} , {$vsLang->getWordsGlobal("global_company_copyright","All right reserved")}</br>
+								{$vsLang->getWordsGlobal("global_company_add","Địa chỉ: 31A ngõ 203 Kim Ngưu")} </br>
+								{$vsLang->getWordsGlobal("global_company_email2","Email: luckymancvp@eteam.vn")} | 
+								{$vsLang->getWordsGlobal("global_company_hotline2","Hotline: 01683174154")}
 							</div>
 							<div class="text2_footer">
 								<a href="http://redsunic.com" class="redsunic"></a>
