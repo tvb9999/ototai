@@ -10,14 +10,14 @@ function loadDefault($objList="") {global $bw,$vsPrint,$vsLang;
 //--starthtml--//
 $BWHTML .= <<<EOF
 		<div class="spmoi_all_1" style="margin-top:0px;">
-<div class="spm_title">{$vsLang->getWords("sp","Sản phẩm")}</div>
+<div class="spm_title">{$vsLang->getWords("sp","Sáº£n pháº©m")}</div>
 <div class="box_spm" style="width:567px;padding-left:8px;">
 
 EOF;
 if($objList['pageList']) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e72dc2141706($objList)}
+{$this->__foreach_loop__id_4e740fc902b27($objList)}
 
 EOF;
 }
@@ -54,7 +54,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e72dc2141706($objList="")
+function __foreach_loop__id_4e740fc902b27($objList="")
 {
 global $bw,$vsPrint,$vsLang;
 	$BWHTML = '';
@@ -67,7 +67,7 @@ global $bw,$vsPrint,$vsLang;
 		
 <div class="sp_sub">
 <div style="padding:5px 0;height:28px"><a href="{$value->getUrl('products')}">{$value->getTitle()}</a></div>
-<div><a href="{$value->getUrl('products')}"><img src="{$value->getCacheImagePathByFile($value->getImage(),100,62)}" /></a></div>
+<div><a href="{$value->getUrl('products')}"><img src="{$value->getCacheImagePathByFile($value->getImage(),100,63)}" /></a></div>
 <div class="sp_sub_text">
 <span class="sp_sub_msp">{$value->getCode()}</span><br />
 
@@ -75,7 +75,7 @@ EOF;
 if($value->getPrice()) {
 $BWHTML .= <<<EOF
 
-<span class="sp_sub_msp">{$value->getPrice(true)}</span> {$vsLang->getWords("products_money","VNĐ","products")}
+<span class="sp_sub_msp">{$value->getPrice(true)}</span> {$vsLang->getWords("products_money","VNÄ�","products")}
 
 EOF;
 }
@@ -91,14 +91,14 @@ $BWHTML .= <<<EOF
  
 </div>
 <div class="btn_all">
-<!--<div class="btn_chitiet"><a href="{$value->getUrl('products')}">{$vsLang->getWordsGlobal("global_detail","Chi tiết")}</a></div>-->
+<!--<div class="btn_chitiet"><a href="{$value->getUrl('products')}">{$vsLang->getWordsGlobal("global_detail","Chi tiáº¿t")}</a></div>-->
 
 EOF;
 if($value->getPrice()) {
 $BWHTML .= <<<EOF
 
-<div class="btn_product_detail"><a href="{$value->getUrl("products")}">{$vsLang->getWordsGlobal("global_product_detail","Chi tiết")}</a></div>
-<div class="btn_dathang"><a href="javascript:vsf.get('orders/addtocart/{$value->getId()}','addcart');sLoading();">{$vsLang->getWordsGlobal("global_add_cart","Đặt hàng")}</a></div>
+<div class="btn_product_detail"><a href="{$value->getUrl("products")}">{$vsLang->getWordsGlobal("global_product_detail","Chi tiáº¿t")}</a></div>
+<div class="btn_dathang"><a href="javascript:vsf.get('orders/addtocart/{$value->getId()}','addcart');sLoading();">{$vsLang->getWordsGlobal("global_add_cart","Ä�áº·t hÃ ng")}</a></div>
 
 EOF;
 }
@@ -122,8 +122,8 @@ function loadDetail($obj="",$option="") {global $bw,$vsPrint,$vsLang;
 //--starthtml--//
 $BWHTML .= <<<EOF
 		<div class="spmoi_all_pd" style="margin-bottom: 20px;">
-<div class="spm_title"><a href="{$bw->base_url}products">{$vsLang->getWords("sp","Sản phẩm")}</a>&nbsp; &raquo&nbsp; <a href="{$bw->base_url}products/category/{$option['category']->getId()}">{$option['category']->getTitle()}</a></div>
-<div class="box_spm">
+<div class="spm_title"><a href="{$bw->base_url}products">{$vsLang->getWords("sp","Sáº£n pháº©m")}</a>&nbsp; &raquo&nbsp; <a href="{$bw->base_url}products/category/{$option['category']->getId()}">{$option['category']->getTitle()}</a></div>
+<div class="box_spm" id="box_detail">
 <div class="image_block">
 <p>
 <img src="{$obj->getCacheImagePathByFile($obj->getImage(),189,119)}"/>
@@ -140,10 +140,10 @@ EOF;
 if($obj->getPrice()!=0) {
 $BWHTML .= <<<EOF
 
-<div class="pro_brand"><span>{$obj->getPrice(true)} </span>VNĐ</div>
+<div class="pro_brand"><span>{$obj->getPrice(true)} </span>VNÄ�</div>
 <div class="btn_dathang_ct">
 <a class="addcart_btn" href="javascript:vsf.get('orders/addtocart/{$obj->getId()}','addcart');sLoading();">
-{$vsLang->getWordsGlobal("global_add_cart","Đặt hàng")}
+{$vsLang->getWordsGlobal("global_add_cart","Ä�áº·t hÃ ng")}
 </a>
 </div>
 
@@ -153,7 +153,7 @@ EOF;
 else {
 $BWHTML .= <<<EOF
 
-<div class="pro_price">{$vsLang->getWords("gb","Giá")} : <span>Call</span></div>
+<div class="pro_price">{$vsLang->getWords("gb","GiÃ¡")} : <span>Call</span></div>
 
 EOF;
 }
@@ -161,6 +161,7 @@ $BWHTML .= <<<EOF
 
 </div>
 <div id = "addcart"></div>
+<div class="clear"></div>
 <div class="product_feature">
 <table border="0" cellpadding="0" cellspacing="0" width="auto">
 <tr>
@@ -178,7 +179,7 @@ $BWHTML .= <<<EOF
 </div>
 <!-- Other pro -->
 <div class="sp_ct_all" style="margin-top:0px">
-<div class="spm_title"><span>{$vsLang->getWords("spsame","Sản phẩm cùng loại")}</span> </div>
+<div class="spm_title"><span>{$vsLang->getWords("spsame","Sáº£n pháº©m cÃ¹ng loáº¡i")}</span> </div>
 <div class="box_spm">
 <div class="sp_all">
 <div class="slide_sub other_product">
@@ -189,7 +190,7 @@ EOF;
 if($option['other']['pageList']) {
 $BWHTML .= <<<EOF
   
-                            {$this->__foreach_loop__id_4e72dc2141a5d($obj,$option)}
+                            {$this->__foreach_loop__id_4e740fc902e66($obj,$option)}
 
 EOF;
 }
@@ -210,7 +211,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e72dc2141a5d($obj="",$option="")
+function __foreach_loop__id_4e740fc902e66($obj="",$option="")
 {
 global $bw,$vsPrint,$vsLang;
 	$BWHTML = '';
@@ -232,12 +233,12 @@ $BWHTML .= <<<EOF
 
 <div class="sp_sub_text">
 <div style="text-align:center"><span class="sp_sub_msp">{$obj->getCode()}</span></div>
-<div style="text-align:center"><span class="sp_sub_msp">{$value->getPrice(true)}</span> VNĐ</div>
+<div style="text-align:center"><span class="sp_sub_msp">{$value->getPrice(true)}</span> VNÄ�</div>
 </div>
 <div class="btn_all">
-<!--<div class="btn_chitiet"><a href="{$value->getUrl('products')}">{$vsLang->getWordsGlobal("global_detail","Chi tiết")}</a></div>-->
-<div class="btn_product_detail"><a href="{$value->getUrl("products")}">{$vsLang->getWordsGlobal("global_product_detail","Chi tiết")}</a></div>
-<div class="btn_dathang"><a href="javascript:vsf.get('orders/addtocart/{$value->getId()}','addcart');sLoading();">{$vsLang->getWordsGlobal("global_add_cart","Đặt hàng")}</a></div>
+<!--<div class="btn_chitiet"><a href="{$value->getUrl('products')}">{$vsLang->getWordsGlobal("global_detail","Chi tiáº¿t")}</a></div>-->
+<div class="btn_product_detail"><a href="{$value->getUrl("products")}">{$vsLang->getWordsGlobal("global_product_detail","Chi tiáº¿t")}</a></div>
+<div class="btn_dathang"><a href="javascript:vsf.get('orders/addtocart/{$value->getId()}','addcart');sLoading();">{$vsLang->getWordsGlobal("global_add_cart","Ä�áº·t hÃ ng")}</a></div>
 </div>
 
 EOF;
@@ -246,7 +247,7 @@ EOF;
 else {
 $BWHTML .= <<<EOF
 
-<div class="pro_block_price">{$vsLang->getWords("gb","Giá")} : Call</div>
+<div class="pro_block_price">{$vsLang->getWords("gb","GiÃ¡")} : Call</div>
 
 EOF;
 }

@@ -27,7 +27,7 @@ EOF;
 if($result['sanphammoi']) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e7361b7ad56b($result)}
+{$this->__foreach_loop__id_4e740fcb6abbf($result)}
 
 EOF;
 }
@@ -54,7 +54,7 @@ EOF;
 if($result['sanpham']) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e7361b7ad71a($result)}
+{$this->__foreach_loop__id_4e740fcb6aca1($result)}
 
 EOF;
 }
@@ -72,7 +72,7 @@ EOF;
 if($vsTemplate->global_template->partner) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e7361b7ad892($result)}
+{$this->__foreach_loop__id_4e740fcb6ad62($result)}
 
 EOF;
 }
@@ -88,7 +88,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e7361b7ad56b($result="")
+function __foreach_loop__id_4e740fcb6abbf($result="")
 {
 global $bw, $vsLang, $vsTemplate, $vsFile;
 	$BWHTML = '';
@@ -153,7 +153,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e7361b7ad71a($result="")
+function __foreach_loop__id_4e740fcb6aca1($result="")
 {
 global $bw, $vsLang, $vsTemplate, $vsFile;
 	$BWHTML = '';
@@ -216,7 +216,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e7361b7ad892($result="")
+function __foreach_loop__id_4e740fcb6ad62($result="")
 {
 global $bw, $vsLang, $vsTemplate, $vsFile;
 	$BWHTML = '';

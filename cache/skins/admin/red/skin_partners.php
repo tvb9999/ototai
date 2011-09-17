@@ -60,7 +60,7 @@ $BWHTML .= <<<EOF
         </tr>
       </thead>
       <tbody>
-          {$this->__foreach_loop__id_4e72147f6c7bd($objItems,$option)}
+          {$this->__foreach_loop__id_4e7408e72861c($objItems,$option)}
         
       </tbody>
       <tfoot>
@@ -231,7 +231,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e72147f6c7bd($objItems=array(),$option=array())
+function __foreach_loop__id_4e7408e72861c($objItems=array(),$option=array())
 {
 global $bw, $vsLang, $vsSettings;
 	$BWHTML = '';
@@ -709,7 +709,7 @@ $BWHTML .= <<<EOF
        <select size="18" style="width: 100%;" id="obj-category">
         <option value="0">{$vsLang->getWords('menus_option_root',"Root")}</option>
         <if="count($categoryGroup->getChildren())"
-        {$this->__foreach_loop__id_4e72147f6dfd0($categoryGroup)}
+        {$this->__foreach_loop__id_4e7408e728f5b($categoryGroup)}
         </select>
         </td>
     <td align="center">
@@ -744,7 +744,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e72147f6dfd0($categoryGroup=array())
+function __foreach_loop__id_4e7408e728f5b($categoryGroup=array())
 {
 global $vsLang, $bw;
 	$BWHTML = '';

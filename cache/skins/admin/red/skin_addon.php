@@ -58,7 +58,7 @@ $BWHTML .= <<<EOF
 
 <select name='languageid' id="language-list">
 
-{$this->__foreach_loop__id_4e72dc1e16323($arrayObj,$title)}
+{$this->__foreach_loop__id_4e7410190232d($arrayObj,$title)}
 
 </select>
 
@@ -99,7 +99,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e72dc1e16323($arrayObj=array(),$title='')
+function __foreach_loop__id_4e7410190232d($arrayObj=array(),$title='')
 {
 
 global $bw,$vsLang;

@@ -2,16 +2,18 @@
 <rss version="2.0">
 <channel>
 	<title>Tổng công ty Cà Phê Việt Nam</title>
-	<link>http://localhost:8080/boong.com.vn/acprs.php?vs=</link>
+	<link>http://localhost/ototai/acprs.php?vs=</link>
 	<description>Thông tin thị trường cà phê Việt Nam</description>
-	<pubDate>Thu, 05 May 2011 08:05:41 +0000</pubDate>
+	<pubDate>Sat, 17 Sep 2011 04:29:48 +0200</pubDate>
 	<ttl>60</ttl>
 	<item>
-		<title>Hưỡng dẫn mua hàng</title>
-		<link>http://localhost:8080/boong.com.vn/acprs.php?vs=helpbuy/detail/huong-dan-mua-hang-3/</link>
-		<description>Dữ liệu đang cập nhật</description>
-		<content>Dữ liệu đang cập nhật</content>
-		<pubDate>Thu, 05 May 2011 08:05:41 +0000</pubDate>
+		<title>Giới thiệu</title>
+		<link>http://localhost/ototai/acprs.php?vs=abouts/detail/gioi-thieu-1/</link>
+		<description><![CDATA[<p style="text-align: center;">Ô tô Giải Phóng - Vạn dặm bình yên</p>
+<p>       Công ty Cổ Phần Ô tô Giải Phóng là nhà sản xuất, lắp ráp và phân phối các loại xe tải nhẹ dưới 5 tấn, áp dụng công nghệ tiên tiến được chuyển giao từ Tập đoàn Ô tô Thượng Hải. Với định hướng phát triển lâu dài, với chất lượng sản phẩm - dịch vụ hoàn hảo và ...]]></description>
+		<content><![CDATA[<p style="text-align: center;">Ô tô Giải Phóng - Vạn dặm bình yên</p>
+<p>       Công ty Cổ Phần Ô tô Giải Phóng là nhà sản xuất, lắp ráp và phân phối các loại xe tải nhẹ dưới 5 tấn, áp dụng công nghệ tiên tiến được chuyển giao từ Tập đoàn Ô tô Thượng Hải. Với định hướng phát triển lâu dài, với chất lượng sản phẩm - dịch vụ hoàn hảo và ...]]></content>
+		<pubDate>Sat, 17 Sep 2011 04:29:48 +0200</pubDate>
 	</item>
 </channel>
 </rss>

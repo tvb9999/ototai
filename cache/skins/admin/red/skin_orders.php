@@ -69,7 +69,7 @@ EOF;
 if(count($option['pageList'])) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4ddf6f4d941cc($option)}
+{$this->__foreach_loop__id_4e7408df27484($option)}
 
 EOF;
 }
@@ -145,7 +145,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4ddf6f4d941cc($option="")
+function __foreach_loop__id_4e7408df27484($option="")
 {
 global $vsLang,$bw,$vsSettings;
 	$BWHTML = '';
@@ -217,7 +217,7 @@ EOF;
 if(count($option['cart'])) {
 $BWHTML .= <<<EOF
 
- {$this->__foreach_loop__id_4ddf6f4d94436($obj,$option,$amount)}
+ {$this->__foreach_loop__id_4e7408df276a4($obj,$option,$amount)}
 
 EOF;
 }
@@ -229,7 +229,7 @@ EOF;
 if(count($option['gift'])) {
 $BWHTML .= <<<EOF
 
- {$this->__foreach_loop__id_4ddf6f4d945d5($obj,$option,$amount)}
+ {$this->__foreach_loop__id_4e7408df27804($obj,$option,$amount)}
 
 EOF;
 }
@@ -247,7 +247,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4ddf6f4d94436($obj="",$option="",&$amount=0)
+function __foreach_loop__id_4e7408df276a4($obj="",$option="",&$amount=0)
 {
 global $vsLang,$bw;
 	$BWHTML = '';
@@ -279,7 +279,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4ddf6f4d9450c($obj="",$option="",&$amount=0,$value='')
+function __foreach_loop__id_4e7408df27764($obj="",$option="",&$amount=0,$value='')
 {
 ;
 	$BWHTML = '';
@@ -302,7 +302,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4ddf6f4d9458b($obj="",$option="",&$amount=0,$value='')
+function __foreach_loop__id_4e7408df277c9($obj="",$option="",&$amount=0,$value='')
 {
 ;
 	$BWHTML = '';
@@ -325,7 +325,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4ddf6f4d945d5($obj="",$option="",&$amount=0)
+function __foreach_loop__id_4e7408df27804($obj="",$option="",&$amount=0)
 {
 global $vsLang,$bw;
 	$BWHTML = '';
@@ -350,8 +350,8 @@ EOF;
 if(count($option['gProduct'][$value['relId']])) {
 $BWHTML .= <<<EOF
 
-                {$this->__foreach_loop__id_4ddf6f4d9450c($obj,$option,$amount,$value)}
-                {$this->__foreach_loop__id_4ddf6f4d9458b($obj,$option,$amount,$value)}
+                {$this->__foreach_loop__id_4e7408df27764($obj,$option,$amount,$value)}
+                {$this->__foreach_loop__id_4e7408df277c9($obj,$option,$amount,$value)}
                         
 EOF;
 }
@@ -408,7 +408,7 @@ EOF;
 if(count($option['cart'])) {
 $BWHTML .= <<<EOF
 
- {$this->__foreach_loop__id_4ddf6f4d94948($option,$amount)}
+ {$this->__foreach_loop__id_4e7408df27b00($option,$amount)}
 
 EOF;
 }
@@ -420,7 +420,7 @@ EOF;
 if(count($option['gift'])) {
 $BWHTML .= <<<EOF
 
- {$this->__foreach_loop__id_4ddf6f4d94b18($option,$amount)}
+ {$this->__foreach_loop__id_4e7408df27c8a($option,$amount)}
 
 EOF;
 }
@@ -539,7 +539,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4ddf6f4d94948(&$option="",&$amount="")
+function __foreach_loop__id_4e7408df27b00(&$option="",&$amount="")
 {
 global $bw,$vsLang;
 	$BWHTML = '';
@@ -593,7 +593,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4ddf6f4d94a57(&$option="",&$amount="",$value='')
+function __foreach_loop__id_4e7408df27be7(&$option="",&$amount="",$value='')
 {
 ;
 	$BWHTML = '';
@@ -616,7 +616,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4ddf6f4d94ace(&$option="",&$amount="",$value='')
+function __foreach_loop__id_4e7408df27c4c(&$option="",&$amount="",$value='')
 {
 ;
 	$BWHTML = '';
@@ -639,7 +639,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4ddf6f4d94b18(&$option="",&$amount="")
+function __foreach_loop__id_4e7408df27c8a(&$option="",&$amount="")
 {
 global $bw,$vsLang;
 	$BWHTML = '';
@@ -685,8 +685,8 @@ EOF;
 if(count($option['gProduct'][$value['relId']])) {
 $BWHTML .= <<<EOF
 
-                {$this->__foreach_loop__id_4ddf6f4d94a57($option,$amount,$value)}
-                {$this->__foreach_loop__id_4ddf6f4d94ace($option,$amount,$value)}
+                {$this->__foreach_loop__id_4e7408df27be7($option,$amount,$value)}
+                {$this->__foreach_loop__id_4e7408df27c4c($option,$amount,$value)}
                         
 EOF;
 }

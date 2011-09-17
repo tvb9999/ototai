@@ -18,7 +18,7 @@ if($option['pageList']) {
 $BWHTML .= <<<EOF
 
 <div class="gioithieu">
-{$this->__foreach_loop__id_4e6c142db41b8($option)}
+{$this->__foreach_loop__id_4e7408a68ade1($option)}
 </div>
 <div class="viciao">
 
@@ -54,7 +54,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e6c142db41b8($option="")
+function __foreach_loop__id_4e7408a68ade1($option="")
 {
 global $bw, $vsLang, $vsSettings;
 	$BWHTML = '';
@@ -101,7 +101,7 @@ $BWHTML .= <<<EOF
 <div class="other_news">
 <div class="other_news_title">{$vsLang->getWordsGlobal('global_other','Tin Khác')}</div>
 <ul>
-{$this->__foreach_loop__id_4e6c142db457c($obj,$option)}
+{$this->__foreach_loop__id_4e7408a68b013($obj,$option)}
 </ul>
 </div>
 
@@ -122,7 +122,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e6c142db457c($obj="",$option="")
+function __foreach_loop__id_4e7408a68b013($obj="",$option="")
 {
 global $bw, $vsLang,$vsSettings;
 	$BWHTML = '';

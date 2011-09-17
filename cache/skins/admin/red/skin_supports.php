@@ -71,7 +71,7 @@ EOF;
 if( count($objItems) ) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e72cc16ad8b1($objItems,$option)}
+{$this->__foreach_loop__id_4e7408d598b70($objItems,$option)}
 
 EOF;
 }
@@ -203,7 +203,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e72cc16ad8b1($objItems=array(),$option=array())
+function __foreach_loop__id_4e7408d598b70($objItems=array(),$option=array())
 {
 global $bw, $vsLang, $vsSettings;
 	$BWHTML = '';
@@ -373,7 +373,7 @@ EOF;
 if(count($option['icon_online'])) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e72cc16ae419($objItem,$option)}
+{$this->__foreach_loop__id_4e7408d598ef9($objItem,$option)}
 
 EOF;
 }
@@ -390,7 +390,7 @@ EOF;
 if(count($option['icon_offline'])) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e72cc16ae538($objItem,$option)}
+{$this->__foreach_loop__id_4e7408d598f65($objItem,$option)}
 
 EOF;
 }
@@ -447,7 +447,7 @@ EOF;
 if(count($option['icon_offline'])) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e72cc16ae63e($objItem,$option)}
+{$this->__foreach_loop__id_4e7408d598fc7($objItem,$option)}
 
 EOF;
 }
@@ -459,7 +459,7 @@ EOF;
 if(count($option['icon_online'])) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e72cc16ae718($objItem,$option)}
+{$this->__foreach_loop__id_4e7408d599020($objItem,$option)}
 
 EOF;
 }
@@ -525,7 +525,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e72cc16ae419($objItem="",$option=array())
+function __foreach_loop__id_4e7408d598ef9($objItem="",$option=array())
 {
 global $vsLang, $bw, $vsSettings;
 	$BWHTML = '';
@@ -553,7 +553,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e72cc16ae538($objItem="",$option=array())
+function __foreach_loop__id_4e7408d598f65($objItem="",$option=array())
 {
 global $vsLang, $bw, $vsSettings;
 	$BWHTML = '';
@@ -581,7 +581,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e72cc16ae63e($objItem="",$option=array())
+function __foreach_loop__id_4e7408d598fc7($objItem="",$option=array())
 {
 global $vsLang, $bw, $vsSettings;
 	$BWHTML = '';
@@ -604,7 +604,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e72cc16ae718($objItem="",$option=array())
+function __foreach_loop__id_4e7408d599020($objItem="",$option=array())
 {
 global $vsLang, $bw, $vsSettings;
 	$BWHTML = '';
@@ -647,7 +647,7 @@ EOF;
 if(count($categoryGroup->getChildren())) {
 $BWHTML .= <<<EOF
 
-        {$this->__foreach_loop__id_4e72cc16af2bd($categoryGroup)}
+        {$this->__foreach_loop__id_4e7408d59943e($categoryGroup)}
         
 EOF;
 }
@@ -706,7 +706,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e72cc16af2bd($categoryGroup=array())
+function __foreach_loop__id_4e7408d59943e($categoryGroup=array())
 {
 global $vsLang, $bw;
 	$BWHTML = '';
