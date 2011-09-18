@@ -43,7 +43,7 @@ EOF;
 		
 		<div class="spmoi_all">
 			<div class="spm_title">{$vsLang->getWordsGlobal("global_title_news","tin tức - sự kiện")}</div>
-			<div class="box_spm">
+			<div class="box_spm" id="box_detail">
 				<div class="gioithieu">
 					<div class="news_title">{$obj->getTitle()}</div>
 					{$obj->getContent()}
