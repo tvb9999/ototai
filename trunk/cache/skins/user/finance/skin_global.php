@@ -182,9 +182,11 @@ $BWHTML .= <<<EOF
 <a href="{$bw->vars['board_url']}/vi/"><img src="{$bw->vars['img_url']}/vn.jpg" /></a></div>
 </div>
 </div>
+<!--
 <div class="banner">
 <embed src="{$bw->vars['img_url']}/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" height="205" width="999">
 </div>
+-->
 <div class="maincontent">
 <div class="giohang">
 <div class="giohang_vnd">
@@ -237,7 +239,7 @@ EOF;
 if($vsTemplate->global_template->menu) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e740fcb661df()}
+{$this->__foreach_loop__id_4e7561ab34a51()}
 
 EOF;
 }
@@ -326,7 +328,7 @@ EOF;
 if($vsTemplate->global_template->category) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e740fcb6636b()}
+{$this->__foreach_loop__id_4e7561ab34c33()}
 
 EOF;
 }
@@ -346,7 +348,7 @@ if($vsTemplate->global_template->support) {
 $BWHTML .= <<<EOF
 
 <div class="yh_text">{$vsLang->getWordsGlobal("global_support_yahoo","Yahoo")}:</div>
-{$this->__foreach_loop__id_4e740fcb663fb()}
+{$this->__foreach_loop__id_4e7561ab34ccc()}
 
 EOF;
 }
@@ -362,7 +364,7 @@ if($vsTemplate->global_template->support) {
 $BWHTML .= <<<EOF
 
 <div class="yh_text" >{$vsLang->getWordsGlobal("global_support_skype","Skype")}:</div>
-{$this->__foreach_loop__id_4e740fcb6647f()}
+{$this->__foreach_loop__id_4e7561ab34d4f()}
 
 EOF;
 }
@@ -395,7 +397,7 @@ EOF;
 if($vsTemplate->global_template->partner) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e740fcb66503()}
+{$this->__foreach_loop__id_4e7561ab34dd3()}
 
 EOF;
 }
@@ -420,7 +422,7 @@ EOF;
 if($vsTemplate->global_template->hotNews) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e740fcb6658b()}
+{$this->__foreach_loop__id_4e7561ab34e5a()}
 
 EOF;
 }
@@ -440,7 +442,7 @@ EOF;
 if($vsTemplate->global_template->bestpro) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e740fcb665f7()}
+{$this->__foreach_loop__id_4e7561ab34ecc()}
 
 EOF;
 }
@@ -460,7 +462,7 @@ EOF;
 if($vsTemplate->global_template->partner) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e740fcb666c5()}
+{$this->__foreach_loop__id_4e7561ab34fe2()}
 
 EOF;
 }
@@ -483,7 +485,7 @@ EOF;
 if($vsTemplate->global_template->menu) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e740fcb6674c()}
+{$this->__foreach_loop__id_4e7561ab3506c()}
 
 EOF;
 }
@@ -501,7 +503,7 @@ $BWHTML .= <<<EOF
 
 <select name="linkwebsite">
 <option>{$vsLang->getWordsGlobal("global_link","Liên kết")}</option>
-{$this->__foreach_loop__id_4e740fcb667ce()}
+{$this->__foreach_loop__id_4e7561ab350ee()}
 </select>
 
 EOF;
@@ -521,7 +523,7 @@ $BWHTML .= <<<EOF
 {$vsLang->getWordsGlobal("global_company_hotline2","Hotline: 01683174154")}
 </div>
 <div class="text2_footer">
-<a href="http://redsunic.com" class="redsunic"></a>
+<a href="http://eteam.vn" class="redsunic"></a>
 </div>
 </div>
 </div>
@@ -589,7 +591,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb66193($value='')
+function __foreach_loop__id_4e7561ab34a0d($value='')
 {
 ;
 	$BWHTML = '';
@@ -612,7 +614,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb661df()
+function __foreach_loop__id_4e7561ab34a51()
 {
 global $bw, $vsLang, $vsMenu, $vsTemplate, $vsFile;
 	$BWHTML = '';
@@ -640,7 +642,7 @@ EOF;
 if($this->vsTemplate->global_template->help) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e740fcb66193($value)}
+{$this->__foreach_loop__id_4e7561ab34a0d($value)}
                                     
 EOF;
 }
@@ -679,7 +681,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb66333($item='')
+function __foreach_loop__id_4e7561ab34bfa($item='')
 {
 ;
 	$BWHTML = '';
@@ -702,7 +704,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb6636b()
+function __foreach_loop__id_4e7561ab34c33()
 {
 global $bw, $vsLang, $vsMenu, $vsTemplate, $vsFile;
 	$BWHTML = '';
@@ -720,7 +722,7 @@ $BWHTML .= <<<EOF
 
 <li class="silverheader"><a href="{$bw->base_url}products/category/{$item->getId()}/">{$item->getTitle()}</a>
 <ul class="submenu">
-{$this->__foreach_loop__id_4e740fcb66333($item)}
+{$this->__foreach_loop__id_4e7561ab34bfa($item)}
 </ul>
 </li>
 
@@ -747,7 +749,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb663fb()
+function __foreach_loop__id_4e7561ab34ccc()
 {
 global $bw, $vsLang, $vsMenu, $vsTemplate, $vsFile;
 	$BWHTML = '';
@@ -783,7 +785,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb6647f()
+function __foreach_loop__id_4e7561ab34d4f()
 {
 global $bw, $vsLang, $vsMenu, $vsTemplate, $vsFile;
 	$BWHTML = '';
@@ -819,7 +821,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb66503()
+function __foreach_loop__id_4e7561ab34dd3()
 {
 global $bw, $vsLang, $vsMenu, $vsTemplate, $vsFile;
 	$BWHTML = '';
@@ -855,7 +857,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb6658b()
+function __foreach_loop__id_4e7561ab34e5a()
 {
 global $bw, $vsLang, $vsMenu, $vsTemplate, $vsFile;
 	$BWHTML = '';
@@ -878,7 +880,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb665f7()
+function __foreach_loop__id_4e7561ab34ecc()
 {
 global $bw, $vsLang, $vsMenu, $vsTemplate, $vsFile;
 	$BWHTML = '';
@@ -941,7 +943,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb666c5()
+function __foreach_loop__id_4e7561ab34fe2()
 {
 global $bw, $vsLang, $vsMenu, $vsTemplate, $vsFile;
 	$BWHTML = '';
@@ -977,7 +979,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb6674c()
+function __foreach_loop__id_4e7561ab3506c()
 {
 global $bw, $vsLang, $vsMenu, $vsTemplate, $vsFile;
 	$BWHTML = '';
@@ -1011,7 +1013,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb667ce()
+function __foreach_loop__id_4e7561ab350ee()
 {
 global $bw, $vsLang, $vsMenu, $vsTemplate, $vsFile;
 	$BWHTML = '';
