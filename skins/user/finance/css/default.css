@@ -5,10 +5,25 @@
 body{
 	font-family:Tahoma;
 	font-size:12px;
-	background:url(../images/bg_body.jpg);
+	/*background:url(../images/bg_body.jpg);*/
 	/*background-color: #91c7ca;*/
-	behavior:url("scripts/csshover3.htc");
+	background-image: linear-gradient(bottom, rgb(112,157,199) 34%, rgb(112,157,199) 65%, rgb(196,223,244) 83%);
+background-image: -o-linear-gradient(bottom, rgb(112,157,199) 34%, rgb(112,157,199) 65%, rgb(196,223,244) 83%);
+background-image: -moz-linear-gradient(bottom, rgb(112,157,199) 34%, rgb(112,157,199) 65%, rgb(196,223,244) 83%);
+background-image: -webkit-linear-gradient(bottom, rgb(112,157,199) 34%, rgb(112,157,199) 65%, rgb(196,223,244) 83%);
+background-image: -ms-linear-gradient(bottom, rgb(112,157,199) 34%, rgb(112,157,199) 65%, rgb(196,223,244) 83%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.34, rgb(112,157,199)),
+	color-stop(0.65, rgb(112,157,199)),
+	color-stop(0.83, rgb(196,223,244))
+);
+
 }
+
 center{
 	margin:0 auto;
 	width:999px;
