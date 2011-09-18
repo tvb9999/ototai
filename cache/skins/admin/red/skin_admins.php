@@ -207,7 +207,7 @@ $BWHTML .= <<<EOF
 
 </tr>
 
-{$this->__foreach_loop__id_4e740ac616979($perm,$message)}
+{$this->__foreach_loop__id_4e741dd36deca($perm,$message)}
 
 <tr>
 
@@ -244,7 +244,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740ac616979($perm=array(),$message="")
+function __foreach_loop__id_4e741dd36deca($perm=array(),$message="")
 {
 
 global $vsLang;
@@ -360,7 +360,7 @@ if(count($groupOption)) {
 $BWHTML .= <<<EOF
 
 
-{$this->__foreach_loop__id_4e740ac616bf7($groupOption,$message)}
+{$this->__foreach_loop__id_4e741dd36e069($groupOption,$message)}
 
 
 EOF;
@@ -386,7 +386,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740ac616bf7($groupOption=array(),$message='')
+function __foreach_loop__id_4e741dd36e069($groupOption=array(),$message='')
 {
 
 global $vsLang;
@@ -769,7 +769,7 @@ if($option['pageList']) {
 $BWHTML .= <<<EOF
 
 
-        {$this->__foreach_loop__id_4e740ac6172bf($option)}
+        {$this->__foreach_loop__id_4e741dd36e42f($option)}
 
         
 EOF;
@@ -1006,7 +1006,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740ac6172bf($option=null)
+function __foreach_loop__id_4e741dd36e42f($option=null)
 {
 
 global $bw, $vsLang;
@@ -1216,7 +1216,7 @@ if(count($vsUser->obj->getGroups())) {
 $BWHTML .= <<<EOF
 
 
-            {$this->__foreach_loop__id_4e740ac6177ab($form,$obj)}
+            {$this->__foreach_loop__id_4e741dd36e6db($form,$obj)}
 
             
 EOF;
@@ -1446,7 +1446,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740ac6177ab($form=array(),$obj="")
+function __foreach_loop__id_4e741dd36e6db($form=array(),$obj="")
 {
 
 global $vsLang,$vsUser,$vsSettings;
@@ -1560,7 +1560,7 @@ if(count($groupOption)) {
 $BWHTML .= <<<EOF
 
 
-                {$this->__foreach_loop__id_4e740ac617b18($groupOption)}
+                {$this->__foreach_loop__id_4e741dd36e96c($groupOption)}
 
                 
 EOF;
@@ -1588,7 +1588,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740ac617b18($groupOption="")
+function __foreach_loop__id_4e741dd36e96c($groupOption="")
 {
 
 global $vsLang, $bw;
@@ -1956,7 +1956,7 @@ $BWHTML .= <<<EOF
 
         <tbody>
 
-{$this->__foreach_loop__id_4e740ac617e1b($grouplist,$message)}
+{$this->__foreach_loop__id_4e741dd36ec59($grouplist,$message)}
 
 
         </tbody>
@@ -2102,7 +2102,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740ac617e1b($grouplist="",$message="")
+function __foreach_loop__id_4e741dd36ec59($grouplist="",$message="")
 {
 
 global $vsLang,$bw;

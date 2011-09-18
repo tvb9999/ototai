@@ -23,7 +23,7 @@ if( $option['support'] ) {
 $BWHTML .= <<<EOF
 
 
-                    {$this->__foreach_loop__id_4e740fcb6c057($option)}
+                    {$this->__foreach_loop__id_4e7561ab3b6ab($option)}
 
                         
 EOF;
@@ -44,7 +44,7 @@ if( $option['weblink'] ) {
 $BWHTML .= <<<EOF
 
 
-                        {$this->__foreach_loop__id_4e740fcb6c0b7($option)}
+                        {$this->__foreach_loop__id_4e7561ab3b794($option)}
 
                         
 EOF;
@@ -68,7 +68,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb6c057($option=array())
+function __foreach_loop__id_4e7561ab3b6ab($option=array())
 {
 
 global $bw, $vsLang;
@@ -94,7 +94,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb6c0b7($option=array())
+function __foreach_loop__id_4e7561ab3b794($option=array())
 {
 
 global $bw, $vsLang;
@@ -137,7 +137,7 @@ if( $partners ) {
 $BWHTML .= <<<EOF
 
 
-                {$this->__foreach_loop__id_4e740fcb6c220($partners)}
+                {$this->__foreach_loop__id_4e7561ab3b8fd($partners)}
 
                     
 EOF;
@@ -157,7 +157,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb6c220($partners=array())
+function __foreach_loop__id_4e7561ab3b8fd($partners=array())
 {
 
 global $bw, $vsLang;
@@ -204,7 +204,7 @@ if($vsMenu->getCategoryGroup('products')->getChildren()) {
 $BWHTML .= <<<EOF
 
 
-{$this->__foreach_loop__id_4e740fcb6c327($option)}
+{$this->__foreach_loop__id_4e7561ab3bad7($option)}
 
 
 EOF;
@@ -224,7 +224,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e740fcb6c327($option="")
+function __foreach_loop__id_4e7561ab3bad7($option="")
 {
 
 global $bw, $vsLang, $vsSettings, $vsMenu;

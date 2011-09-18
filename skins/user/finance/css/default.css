@@ -5,7 +5,8 @@
 body{
 	font-family:Tahoma;
 	font-size:12px;
-	background:url(../images/bg_body.jpg) repeat scroll;
+	background:url(../images/bg_body.jpg);
+	/*background-color: #91c7ca;*/
 	behavior:url("scripts/csshover3.htc");
 }
 center{

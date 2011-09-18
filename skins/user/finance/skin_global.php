@@ -111,9 +111,11 @@ EOF;
 							<a href="{$bw->vars['board_url']}/vi/"><img src="{$bw->vars['img_url']}/vn.jpg" /></a></div>
 					</div>
 				</div>
+				<!--
 				<div class="banner">
 					<embed src="{$bw->vars['img_url']}/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" height="205" width="999">
 				</div>
+				-->
 				<div class="maincontent">
 					<div class="giohang">
 						<div class="giohang_vnd">
@@ -397,7 +399,7 @@ EOF;
 								{$vsLang->getWordsGlobal("global_company_hotline2","Hotline: 01683174154")}
 							</div>
 							<div class="text2_footer">
-								<a href="http://redsunic.com" class="redsunic"></a>
+								<a href="http://eteam.vn" class="redsunic"></a>
 						</div>
 					</div>
 				</div>
