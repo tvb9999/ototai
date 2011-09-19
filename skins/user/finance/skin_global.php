@@ -101,9 +101,11 @@ EOF;
 		$BWHTML .= <<<EOF
 			<center>
 				<div class="header">
+					<!--
 					<div class="logo">
 						<img src="{$bw->vars['img_url']}/logo.jpg" />
 					</div>
+					-->
 					<div class="eng_vn_all">
 						<div class="eng_vn">
 							<a href="{$bw->vars['board_url']}/en/"><img src="{$bw->vars['img_url']}/eng.jpg" /></a></div>
