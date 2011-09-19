@@ -1,11 +1,10 @@
-﻿*{
+*{
 	padding:0px;
 	margin:0px;
 }
 body{
 	font-family:Tahoma;
 	font-size:12px;
-	/*background:url(../images/bg_body.jpg);*/
 	/*background-color: #91c7ca;*/
 background: rgb(59,103,158); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(59,103,158,1) 0%, rgba(43,136,217,1) 32%, rgba(32,124,202,1) 66%, rgba(125,185,232,1) 100%); /* FF3.6+ */
@@ -15,6 +14,7 @@ background: -o-linear-gradient(top, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 32%
 background: -ms-linear-gradient(top, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 32%,rgba(32,124,202,1) 66%,rgba(125,185,232,1) 100%); /* IE10+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 background: linear-gradient(top, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 32%,rgba(32,124,202,1) 66%,rgba(125,185,232,1) 100%); /* W3C */
+background:url(../images/bg_body.gif);
 }
 
 center{

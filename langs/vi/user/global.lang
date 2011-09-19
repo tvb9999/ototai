@@ -130,9 +130,9 @@ $lang = array (
   'global_num_pro_cart2' => 'Sản phẩm',
   'global_num_pro_viewcart' => 'Xem giỏ hàng',
   'global_company_year2' => '© Copyright 2011',
-  'global_company_add' => 'Địa chỉ: 31A Ngõ 203 Kim Ngưu Hà Nội',
-  'global_company_email2' => 'Email: luckymancvp@gmail.com',
-  'global_company_hotline2' => 'Hotline: 0938 399 987 - 0935 379 998',
+  'global_company_add' => '31A Ngõ 203 Kim Ngưu Hà Nội',
+  'global_company_email2' => 'luckymancvp@gmail.com',
+  'global_company_hotline2' => '0938 399 987 - 0935 379 998',
   'global_product_detail' => 'Chi tiết',
   'develope_connect_db_fail' => 'Cannot connect to database',
 );
