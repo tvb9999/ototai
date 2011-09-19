@@ -32,8 +32,8 @@ $arraySetting = array (
   'public_cleanurl' => 'Yes',
   'public_frontpage' => 'home',
   'header_redirect' => 'normal',
-  'global_systememail' => 'info@boong.com.vn',
-  'global_websiteaddress' => 'www.boong.com.vn',
-  'global_websitename' => 'Boong',
+  'global_systememail' => 'info@autogiaiphong.com.vn',
+  'global_websiteaddress' => 'www.autogiaiphong.com.vn',
+  'global_websitename' => 'Auto Giải Phóng',
 );
 ?>
