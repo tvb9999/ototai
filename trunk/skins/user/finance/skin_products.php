@@ -12,7 +12,7 @@ class skin_products {
 						<foreach="$objList['pageList'] as $value">
 							<div class="sp_sub">
 								<div style="padding:5px 0;height:28px"><a href="{$value->getUrl('products')}">{$value->getTitle()}</a></div>
-								<div><a href="{$value->getUrl('products')}"><img class="preview" src="{$value->getCacheImagePathByFile($value->getImage(),100,63)}" /></a></div>
+								<div><a href="{$value->getUrl('products')}"><img class="preview" src="{$value->getCacheImagePathByFile($value->getImage(),110,80)}" /></a></div>
 								<div class="sp_sub_text">
 									<span class="sp_sub_msp">{$value->getCode()}</span><br />
 									<if="$value->getPrice()">											
@@ -107,7 +107,7 @@ EOF;
 									<li>
 									<div class="sp_sub">
 										<div style="padding:5px 0;height:28px"><a href="{$value->getUrl("products")}">{$value->getTitle()}</a></div>
-										<div><a href="{$value->getUrl("products")}"><img src="{$value->getCacheImagePathByFile($value->getImage(),100,100)}" /></a></div>
+										<div><a href="{$value->getUrl("products")}"><img src="{$value->getCacheImagePathByFile($value->getImage(),110,80)}" /></a></div>
 										<if="$value->getPrice()!=0">
 											<div class="sp_sub_text">
 												<div style="text-align:center"><span class="sp_sub_msp">{$obj->getCode()}</span></div>

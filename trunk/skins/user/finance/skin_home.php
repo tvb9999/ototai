@@ -23,7 +23,7 @@ class skin_home{
 									<li>
 										<div class="sp_sub">
 											<a  class="name_pro" href="{$value->getUrl('products')}">{$value->getTitle()}</a> 
-											<a href="{$value->getUrl('products')}"><img src="{$value->getCacheImagePathByFile($value->getImage(),100,62)}" /></a>
+											<a href="{$value->getUrl('products')}"><img src="{$value->getCacheImagePathByFile($value->getImage(),110,80)}" /></a>
 											<div class="sp_sub_text">
 												<span class="sp_sub_msp">{$value->getCode()}</span><br />
 												<if="$value->getPrice()">											
@@ -61,7 +61,7 @@ class skin_home{
 						<foreach="$result['sanpham'] as $value">
 							<li class="sp_sub">
 								<p class="title"><a href="{$value->getUrl('products')}" class="sp_banchay_title">{$value->getTitle()}</a></p>
-								<a href="{$value->getUrl('products')}"><img src="{$value->getCacheImagePathByFile($value->getImage(),100,62)}" /></a>
+								<a href="{$value->getUrl('products')}"><img src="{$value->getCacheImagePathByFile($value->getImage(),110,80)}" /></a>
 								<div class="sp_sub_text">
 									<span class="sp_sub_msp">{$value->getCode()}</span><br />
 									<if="$value->getPrice()">											
