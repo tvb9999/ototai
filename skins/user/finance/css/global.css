@@ -211,12 +211,12 @@ opacity: 0.8;
 
 }
 .bg_title1{
-	background:url(../images/bg_title1.jpg) no-repeat scroll;
-	height:18px;
+	background:url(../images/title_right.png) no-repeat scroll;
+	height:21px;
 	font-weight:bold;
 	text-transform:uppercase;
-	color:red;
-	padding-top:10px;
+	color:wheat;
+	padding-top:8px;
 	font-size: 11px;
 }
 
@@ -246,6 +246,7 @@ opacity: 0.8;
 	margin:8px 0px 0px 83px;
         border: 1px solid #d4d4d4;
         border-top: none;
+    cursor: pointer;
 }
 .text_dnmk a{color: #141414;}
 
