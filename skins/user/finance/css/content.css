@@ -41,12 +41,12 @@
 }
 .sp_sub .name_pro{
 	display: inline-block;
-    height: 30px;
+    height: 40px;
     color: #F04809;
     font-weight: bold;
 }
 .sp_sub a img{
-    border: 2px solid #a4a4a4;
+    border: 1px solid #a4a4a4;
     margin-top: 10px;
 }
 .sp_sub p a,.sp_banchay div a{color: #F04809;font-weight: bold;}
