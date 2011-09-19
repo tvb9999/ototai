@@ -276,8 +276,8 @@ $arraySetting = array (
   'email_smtp_password' => '123456',
   'email_smtp_user' => 'support@redsunic.com',
   'public_menu_cache' => 'Yes',
-  'global_systememail' => 'info@boong.com.vn',
-  'global_websiteaddress' => 'www.boong.com.vn',
-  'global_websitename' => 'Boong',
+  'global_systememail' => 'info@autogiaiphong.com.vn',
+  'global_websiteaddress' => 'www.autogiaiphong.com',
+  'global_websitename' => 'Auto Giai Phong',
 );
 ?>
