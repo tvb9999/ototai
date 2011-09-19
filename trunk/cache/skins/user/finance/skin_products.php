@@ -17,7 +17,7 @@ EOF;
 if($objList['pageList']) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e7561ab3a41b($objList)}
+{$this->__foreach_loop__id_4e774bed478d3($objList)}
 
 EOF;
 }
@@ -54,7 +54,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e7561ab3a41b($objList="")
+function __foreach_loop__id_4e774bed478d3($objList="")
 {
 global $bw,$vsPrint,$vsLang;
 	$BWHTML = '';
@@ -67,7 +67,7 @@ global $bw,$vsPrint,$vsLang;
 		
 <div class="sp_sub">
 <div style="padding:5px 0;height:28px"><a href="{$value->getUrl('products')}">{$value->getTitle()}</a></div>
-<div><a href="{$value->getUrl('products')}"><img src="{$value->getCacheImagePathByFile($value->getImage(),100,63)}" /></a></div>
+<div><a href="{$value->getUrl('products')}"><img class="preview" src="{$value->getCacheImagePathByFile($value->getImage(),100,63)}" /></a></div>
 <div class="sp_sub_text">
 <span class="sp_sub_msp">{$value->getCode()}</span><br />
 
@@ -190,7 +190,7 @@ EOF;
 if($option['other']['pageList']) {
 $BWHTML .= <<<EOF
   
-                            {$this->__foreach_loop__id_4e7561ab3a69f($obj,$option)}
+                            {$this->__foreach_loop__id_4e774bed47b1f($obj,$option)}
 
 EOF;
 }
@@ -211,7 +211,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e7561ab3a69f($obj="",$option="")
+function __foreach_loop__id_4e774bed47b1f($obj="",$option="")
 {
 global $bw,$vsPrint,$vsLang;
 	$BWHTML = '';

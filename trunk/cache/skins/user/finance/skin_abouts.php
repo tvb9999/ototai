@@ -38,7 +38,7 @@ EOF;
 if($vsTemplate->global_template->partner) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e74061fb8f16($currentItem)}
+{$this->__foreach_loop__id_4e757872de022($currentItem)}
 
 EOF;
 }
@@ -54,7 +54,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e74061fb8f16($currentItem="")
+function __foreach_loop__id_4e757872de022($currentItem="")
 {
 global $bw, $vsLang, $vsTemplate, $vsFile;
 	$BWHTML = '';
