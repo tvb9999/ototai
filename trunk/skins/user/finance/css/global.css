@@ -47,18 +47,20 @@
 	width:988px;
 	border:1px #6593be solid;
 	height:33px;
-	background:url(../images/menuall.jpg) repeat-x scroll;
+	background:url(../images/menu_all_li.gif) repeat-x scroll;
 	float:left:
 }
 .menuall ul{
 	float:left;
-	background:url(../images/bell.jpg) 0px 0px no-repeat scroll;
+	background:url(../images/bell.png) 0px 0px no-repeat scroll;
 	padding-left:35px;
 }
 .menuall ul li{
 	float:left;
 	position: relative;
-	background:url(../images/menu_all_li.jpg) right -3px no-repeat scroll;
+	background:url(../images/menu_all_li.gif) top left repeat-x scroll;
+        border-left: 1px solid #A4A4A4;
+        border-right: 1px solid white;
 }
 .menuall ul li a {
     float: left;
@@ -67,13 +69,14 @@
     line-height: 32px;
     padding: 0 20px;
     text-shadow: 0 1px #CCCCCC;
+    color: #333;
 }
 .menuall ul li a.firt{
 	padding-left:6px;
 }
 .menuall ul li a:hover, .menuall ul li a.active{
 	text-shadow: none;
-	background:url(../images/menuall_active.jpg) right 19px no-repeat scroll;
+	background:url(../images/menuall_active.png) right 19px no-repeat scroll;
 }
 .menuall ul ul{
 	position: absolute;
@@ -85,20 +88,24 @@
 	z-index: 999;
 }
 .menuall ul ul li{
-	background:url(../images/menuall.jpg) right -5px repeat-x scroll;
+	background:url(../images/menuall.jpg) top left repeat-x scroll;
+        height: 33px;
+        line-height: 33px;
 }
 .menuall ul ul li a{
 	float:left;
-	height:25px;
-	line-height:25px;
+	height:33px;
+	line-height:33px;
 	font-weight: normal;
 	text-shadow: none;
 	width:133px;
-	color:#fff;
+	color:#EB5515;
+        font-size: 11px;
+        font-weight: bold;
 }
 .menuall ul ul li a:hover{
 	text-shadow: none;
-	background:url(../images/menuall_active.jpg) right 15px no-repeat scroll;
+	background:url(../images/menuall_active.png) right 15px no-repeat scroll;
 }
 .menu_ic{
 	float:left;
@@ -152,7 +159,7 @@ opacity: 0.8;
     border: 1px solid #7D94A8;
     color: #999999;
     font-size: 11px;
-    height: 16px;
+    height: 19px;
     width: 170px;
 }
 .searchall_in{
@@ -166,7 +173,7 @@ opacity: 0.8;
 }
 .seatch_mt a {
     background: url("../images/mt_search.jpg") no-repeat scroll 0 3px transparent;
-    color: #FFFFFF;
+    color: #333;
     display: inline-block;
     font-style: normal;
     line-height: 16px;

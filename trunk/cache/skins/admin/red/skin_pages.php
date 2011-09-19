@@ -118,7 +118,7 @@ EOF;
 if( count($virtualList) > 0) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e7408d11c8a5($virtualList,$option)}
+{$this->__foreach_loop__id_4e773d5f15b21($virtualList,$option)}
 
 EOF;
 }
@@ -189,7 +189,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e7408d11c8a5($virtualList=array(),$option=array())
+function __foreach_loop__id_4e773d5f15b21($virtualList=array(),$option=array())
 {
 global $vsLang, $bw;
 	$BWHTML = '';
@@ -510,7 +510,7 @@ EOF;
 if( count($option['pageList'])) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e7408d11cd01($option)}
+{$this->__foreach_loop__id_4e773d5f1699c($option)}
 
 EOF;
 }
@@ -603,7 +603,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e7408d11cd01($option=array())
+function __foreach_loop__id_4e773d5f1699c($option=array())
 {
 global $vsLang, $bw,$vsUser,$vsSettings;
 	$BWHTML = '';
@@ -772,7 +772,7 @@ EOF;
 if( count($option['pageList'])) {
 $BWHTML .= <<<EOF
 
-{$this->__foreach_loop__id_4e7408d11d206($option)}
+{$this->__foreach_loop__id_4e773d5f1774a($option)}
 
 EOF;
 }
@@ -884,7 +884,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e7408d11d206($option=array())
+function __foreach_loop__id_4e773d5f1774a($option=array())
 {
 global $vsLang, $vsSettings, $bw;
 	$BWHTML = '';
@@ -1522,7 +1522,7 @@ EOF;
 if($result) {
 $BWHTML .= <<<EOF
 
-        {$this->__foreach_loop__id_4e7408d11df20($result)}
+        {$this->__foreach_loop__id_4e773d5f19877($result)}
         
 EOF;
 }
@@ -1573,7 +1573,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4e7408d11df20($result="")
+function __foreach_loop__id_4e773d5f19877($result="")
 {
 global $bw, $vsLang;
 	$BWHTML = '';

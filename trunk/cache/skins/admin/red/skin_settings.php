@@ -285,7 +285,7 @@ if( $option['category'] ) {
 $BWHTML .= <<<EOF
 
 
-    {$this->__foreach_loop__id_4def957ba2b24($obj,$option)}
+    {$this->__foreach_loop__id_4e773d4aabfe5($obj,$option)}
 
     
 EOF;
@@ -314,7 +314,7 @@ if( $option['input'] ) {
 $BWHTML .= <<<EOF
 
 
-    {$this->__foreach_loop__id_4def957ba2b8f($obj,$option)}
+    {$this->__foreach_loop__id_4e773d4aac082($obj,$option)}
 
     
 EOF;
@@ -564,7 +564,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4def957ba2b24($obj="",$option="")
+function __foreach_loop__id_4e773d4aabfe5($obj="",$option="")
 {
 
 global $bw, $vsUser, $vsLang;
@@ -594,7 +594,7 @@ $vsf_count++;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4def957ba2b8f($obj="",$option="")
+function __foreach_loop__id_4e773d4aac082($obj="",$option="")
 {
 
 global $bw, $vsUser, $vsLang;
@@ -719,7 +719,7 @@ if( $option['pageList'] ) {
 $BWHTML .= <<<EOF
 
 
-    {$this->__foreach_loop__id_4def957ba2ede($option)}
+    {$this->__foreach_loop__id_4e773d4aac8e0($option)}
 
 
 EOF;
@@ -842,7 +842,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4def957ba2ede($option="")
+function __foreach_loop__id_4e773d4aac8e0($option="")
 {
 
 global $vsLang,$vsUser;
@@ -921,7 +921,7 @@ if( $arrayCat ) {
 $BWHTML .= <<<EOF
 
 
-{$this->__foreach_loop__id_4def957ba30ad($listObj,$arrayCat,$message)}
+{$this->__foreach_loop__id_4e773d4aacc9e($listObj,$arrayCat,$message)}
 
 
 EOF;
@@ -957,7 +957,7 @@ return $BWHTML;
 //===========================================================================
 // Foreach loop function
 //===========================================================================
-function __foreach_loop__id_4def957ba30ad($listObj="",$arrayCat="",$message="")
+function __foreach_loop__id_4e773d4aacc9e($listObj="",$arrayCat="",$message="")
 {
 
 global $vsLang;
