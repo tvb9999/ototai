@@ -1,6 +1,6 @@
 .header{
 	background:url(../images/bg_header.jpg) no-repeat scroll;
-	height:92px;
+	height:120px;
 	width:999px;
 	position:relative;
 }
@@ -22,8 +22,8 @@
 .eng_vn_all{
 	display:inline-block;
 	position:absolute;
-	right:0;
-	top:10px;
+	right:12px;
+	top:3px;
 	}
 	
 .line_head{
@@ -168,7 +168,7 @@ opacity: 0.8;
     background: url("../images/mt_search.jpg") no-repeat scroll 0 3px transparent;
     color: #FFFFFF;
     display: inline-block;
-    font-style: italic;
+    font-style: normal;
     line-height: 16px;
     padding-left: 6px;
     padding-right: 4px;
@@ -208,7 +208,7 @@ opacity: 0.8;
 	height:18px;
 	font-weight:bold;
 	text-transform:uppercase;
-	color:#000000;
+	color:red;
 	padding-top:10px;
 	font-size: 11px;
 }
@@ -221,9 +221,10 @@ opacity: 0.8;
 
 .box_dn input{
 	width:161px;
-	height:21px;
+	height:19px;
 	border:#bbc3d6 1px solid;
-	color:#cbd0ff;
+	color: #d4d4d4;
+        font-size: 11px;
 }
 
 .dnmk{
@@ -231,12 +232,15 @@ opacity: 0.8;
 }
 
 .btn_dn{
-	background:url(../images/btn_dn.jpg) no-repeat scroll;
-	width:82px;
-	height:20px;
+	background:url(../images/btn_dn.gif) no-repeat center right;
+	width:90px;
+	height:23px;
 	font-weight:bold;
 	margin:8px 0px 0px 83px;
+        border: 1px solid #d4d4d4;
+        border-top: none;
 }
+.text_dnmk a{color: #141414;}
 
 .btn_dn a{
 	color:#000000;
@@ -256,7 +260,7 @@ opacity: 0.8;
 
 .bg_title2{
 	background: url("../images/bg_title2.jpg") no-repeat scroll 0 0 transparent;
-    color: #000000;
+    color: #ffffff;
     font-size: 11px;
     font-weight: bold;
     height: 21px;
@@ -389,7 +393,7 @@ opacity: 0.8;
 }
 
 .sdt{
-	color:#1800ff;
+	color:#F04809;
 	font-weight:bold;
 	font-size:12px;
 	padding-left:34px;
@@ -433,18 +437,16 @@ opacity: 0.8;
 }
 
 .tnb ul li{
-    background: url("../images/mt_tnb.jpg") no-repeat scroll 0px 7px transparent;
-}
-
-.tnb ul li:hover{
-    background: url("../images/mt_tnb_hover.jpg") no-repeat scroll 0px 7px transparent;
+    background: url("../images/mt_tnb.gif") no-repeat center left;
 }
 
 .tnb ul li a{
-    color:#000000;
+    color: #00569E;
     display: block;
     overflow: hidden;
     padding: 4px 5px 4px 20px;
+    font-weight: bold;
+    font-size: 11px;
 	}
 	
 .tnb ul li a:hover{
@@ -470,7 +472,7 @@ opacity: 0.8;
 	width:988px;
 	height:8px;
 	display:iline-block;
-	background-color:#92a7ff;
+	background-color:#F49F31;
 	margin-top:15px;
 }
 
@@ -514,6 +516,7 @@ opacity: 0.8;
     line-height:30px;
     margin: 0 1px;
     padding: 0 16px;
+    font-weight: bold;
 }
 .footer_menu ul li a:hover, .menu ul li a:active{
 	color:#999999;
@@ -579,9 +582,11 @@ ul.marquee li {
 	padding:7px;
 }
 .counter div{
-	background: none repeat scroll 0 0 #000000;
-    color: #FFFFFF;
+	background: none repeat scroll 0 0 #fff;
+    color: #D60000;
     padding: 5px 0 5px 2px;
+    font-size: 11px;
+    font-weight: bold;
 }
 .redsunic{
 	background:transparent url(../images/redsun.jpg) no-repeat scroll;
@@ -589,3 +594,5 @@ ul.marquee li {
 	height:28px;
 	display:inline-block;
 }
+
+.text1_footer span{margin: 0px 5px;font-weight: bold;color: #AB2D00;}

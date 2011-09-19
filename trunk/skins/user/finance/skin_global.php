@@ -187,7 +187,7 @@ EOF;
 											<div class="dnmk">
 												<input name="userPassword" id="userPasswordHome" onblur="if(this.value=='') this.value='{$vsLang->getWordsGlobal("global_password","Mật khẩu")}'" onclick="if(this.value=='{$vsLang->getWordsGlobal("global_password","Mật khẩu")}') this.value=''" type="password" value="{$vsLang->getWordsGlobal("global_password","Mật khẩu")}" /></div>
 											<div class="btn_dn">
-												<a href="javascript:void(null);" onclick="$('#form-login-home').submit();">{$vsLang->getWordsGlobal("global_login_bt","Đăng nhập")}</a></div>
+												<a href="javascript:void(null);" onclick="$('#form-login-home').submit();">&nbsp;</a></div>
 											<div class="text_dnmk">
 												<a href="{$bw->base_url}users/resgister/">{$vsLang->getWordsGlobal("global_register","Đăng ký")}</a> | <a href="{$bw->base_url}users/forgot-password-form/">{$vsLang->getWordsGlobal("global_forgot_password","Quên mật khẩu")}</a></div>
 										</div>
@@ -393,10 +393,10 @@ EOF;
 						<div class="clear"></div>
 						<div class="footer2">
 							<div class="text1_footer">
-								{$vsLang->getWordsGlobal("global_company_year2","© Copyright 2011")} {$vsLang->getWordsGlobal("global_company_site","eteam.vn")} , {$vsLang->getWordsGlobal("global_company_copyright","All right reserved")}</br>
-								{$vsLang->getWordsGlobal("global_company_add","Địa chỉ: 31A ngõ 203 Kim Ngưu")} </br>
-								{$vsLang->getWordsGlobal("global_company_email2","Email: luckymancvp@eteam.vn")} | 
-								{$vsLang->getWordsGlobal("global_company_hotline2","Hotline: 01683174154")}
+								<p>{$vsLang->getWordsGlobal("global_company_year2","© Copyright 2011")} {$vsLang->getWordsGlobal("global_company_site","eteam.vn")} , {$vsLang->getWordsGlobal("global_company_copyright","All right reserved")}</p>
+								<p>Địa chỉ:<span class="add">{$vsLang->getWordsGlobal("global_company_add","31A ngõ 203 Kim Ngưu")}</span>
+								Email:<span class="email">{$vsLang->getWordsGlobal("global_company_email2","luckymancvp@eteam.vn")}</span>
+								Hotline:<span class="phone">{$vsLang->getWordsGlobal("global_company_hotline2","01683174154")}</span></p>
 							</div>
 							<div class="text2_footer">
 								<a href="http://eteam.vn" class="redsunic"></a>

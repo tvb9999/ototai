@@ -14,7 +14,7 @@
     border-color: #BBC3D6 #BBC3D6 -moz-use-text-color;
     border-style: solid solid none;
     border-width: 1px 1px 0;
-    color: #000000;
+    color: #3a3a3a;
     height: 20px;
     padding-left: 5px;
     padding-top: 6px;
@@ -42,7 +42,15 @@
 .sp_sub .name_pro{
 	display: inline-block;
     height: 30px;
+    color: #F04809;
+    font-weight: bold;
 }
+.sp_sub a img{
+    border: 2px solid #a4a4a4;
+    margin-top: 10px;
+}
+.sp_sub p a,.sp_banchay div a{color: #F04809;font-weight: bold;}
+.xtc a{color: #348E00;font-weight: bold;font-size: 11px;}
 .sp_all_line{
 	width:568px;
 	display:inline-block;
