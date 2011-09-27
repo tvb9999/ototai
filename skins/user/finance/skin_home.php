@@ -25,7 +25,7 @@ class skin_home{
 											<a  class="name_pro" href="{$value->getUrl('products')}">{$value->getTitle()}</a> 
 											<a href="{$value->getUrl('products')}"><img src="{$value->getCacheImagePathByFile($value->getImage(),110,80)}" /></a>
 											<div class="sp_sub_text">
-												<span class="sp_sub_msp">{$value->getCode()}</span><br />
+												<br />
 												<if="$value->getPrice()">											
 													<span class="sp_sub_msp">{$value->getPrice(true)}</span> {$vsLang->getWords("products_money","VNĐ","products")}
 												<else />
@@ -63,7 +63,7 @@ class skin_home{
 								<p class="title"><a href="{$value->getUrl('products')}" class="sp_banchay_title">{$value->getTitle()}</a></p>
 								<a href="{$value->getUrl('products')}"><img src="{$value->getCacheImagePathByFile($value->getImage(),110,80)}" /></a>
 								<div class="sp_sub_text">
-									<span class="sp_sub_msp">{$value->getCode()}</span><br />
+									<br />
 									<if="$value->getPrice()">											
 										<span class="sp_sub_msp">{$value->getPrice(true)}</span> {$vsLang->getWords("products_money","VNĐ","products")}
 									<else />

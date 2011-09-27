@@ -14,7 +14,7 @@ class skin_products {
 								<div style="padding:5px 0;height:28px"><a href="{$value->getUrl('products')}">{$value->getTitle()}</a></div>
 								<div><a href="{$value->getUrl('products')}"><img class="preview" src="{$value->getCacheImagePathByFile($value->getImage(),110,80)}" /></a></div>
 								<div class="sp_sub_text">
-									<span class="sp_sub_msp">{$value->getCode()}</span><br />
+									<br />
 									<if="$value->getPrice()">											
 										<span class="sp_sub_msp">{$value->getPrice(true)}</span> {$vsLang->getWords("products_money","VNÄ�","products")}
 									<else />
